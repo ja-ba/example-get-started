@@ -1,4 +1,6 @@
 [core]
-    remote = public-s3
+    remote = non_existing_remote
 ['remote "public-s3"']
     url = https://remote.dvc.org/get-started
+['remote "non_existing_remote"']
+    url = https://foo.bar.com
